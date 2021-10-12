@@ -29,3 +29,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  - Css
  - Bootstrap
  - Angular ClI
+
+ ## Live Demo
