@@ -32,3 +32,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
  ## Live Demo
   View the [live]() demo.
+
+  ## Further help
