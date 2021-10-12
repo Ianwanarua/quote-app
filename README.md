@@ -41,3 +41,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
   ## Support
   Email: [ian.wanarua@student.moringaschool.com](ian.wanarua@student.moringaschool.com)
+
+  Contact: +254720368300
+
+copyright (c) 2021 _quote-app_
