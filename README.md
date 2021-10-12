@@ -7,3 +7,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
  # Author
  _Ian Wanarua_
+
+ ## Development server
