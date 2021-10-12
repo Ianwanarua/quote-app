@@ -31,7 +31,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  - Angular ClI
 
  ## Live Demo
-  View the [live]() demo.
+  View the [live](https://ianwanarua.github.io/quote-app/) demo.
 
   ## Further help
   To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
