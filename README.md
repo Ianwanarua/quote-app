@@ -38,3 +38,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
   ## License
   This File is under [MIT](LICENSE) License.
+
+  ## Support
+  Email: [ian.wanarua@student.moringaschool.com](ian.wanarua@student.moringaschool.com)
