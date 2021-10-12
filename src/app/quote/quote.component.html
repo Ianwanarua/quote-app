@@ -1,5 +1,5 @@
 <div class="container home">
-    <h1 class="text-center pt-3" style="color: blueviolet;">"My Quotes"</h1>
+  <h1 class="text-center pt-3" style="color: blueviolet;">"My Quotes"</h1>
     <hr>
     <div class="row">
       <div class="col-md-7">
@@ -16,11 +16,11 @@
               </div>
           </div>
       </div>
-      <div class="col-md-5">
-        <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
+        <div class="col-md-5">
+          <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
+        </div>
       </div>
-    </div>
-    <div class="footer text-center p-5">
-      <fa-icon [icon]="faCopyright"></fa-icon>2021, Quote-App.
-    </div>
+      <div class="footer text-center p-5">
+        <fa-icon [icon]="faCopyright"></fa-icon>2021, Quote-App.
+      </div>
   </div> 
