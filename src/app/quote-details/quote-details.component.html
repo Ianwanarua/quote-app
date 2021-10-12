@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-between details">
+    <div id="datePosted">
+      Posted {{quote.completeDate|dateCount}} days ago by:
+      <strong><em>{{quote.name}}</em></strong>
+    </div>
+    <div class="icons">
+        <div class="btn btn-outline-info icons-thumb">
+        <a href="" (click)="voteUp()">
+            <fa-icon [icon]="faThumbsUp" class="thumbs"></fa-icon>
+          </a> ({{like}})
+        </div>
+        <div class="btn btn-outline-info icons-thumb">
+            <a href="" (click)="voteDown()">
+                <fa-icon [icon]="faThumbsDown" class="thumbs"></fa-icon>
+              </a> ({{disLike}})
+        </div>
+        <div class="icon btn btn-outline-danger icons-thumb" (click)='deleteQuote(true)'>
+            <fa-icon [icon]="faTrash"></fa-icon>
+        </div>
+    </div>
+</div>

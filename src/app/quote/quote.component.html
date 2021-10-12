@@ -1,0 +1,26 @@
+<div class="container home">
+    <h1 class="text-center pt-3" style="color: blueviolet;">"My Quotes"</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-7">
+          <div *ngFor='let quote of quotes; let i = index;' class="card shadow-sm p-3 mb-2 bg-body rounded">
+              <div id={{i}}>
+                <h5 >{{ quote.quote }}.</h5>
+              </div>
+              <div class="d-flex justify-content-between" style="color: blueviolet;">
+                <div><strong class="author">~ {{quote.author}}</strong></div>
+                <div style="color: navy; font-size: 10pt; padding-right: 5%;" (click)='showDetails(i)'> <fa-icon [icon]="faCaretSquareDown"></fa-icon> </div>
+              </div>
+              <div *ngIf='quote.showQuote'>
+                <app-quote-details  [quote]='quote' (isDeleted) = 'deleteQuote($event,i)'></app-quote-details>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-5">
+        <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
+      </div>
+    </div>
+    <div class="footer text-center p-5">
+      <fa-icon [icon]="faCopyright"></fa-icon>2021, Quote-App.
+    </div>
+  </div> 
